@@ -1,0 +1,67 @@
+.footer {
+  padding: 9rem 0 12rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &__logo {
+    width: 8.8rem;
+    height: 8.5rem;
+  }
+
+  &-nav {
+    font-family: Arial, serif;
+    font-size: 1.4rem;
+    line-height: 2.39;
+    text-align: left;
+    color: $color-battleship-grey;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    &__block {
+      display: inline-block;
+
+
+      &:not(:last-child) {
+        margin-right: 11rem;
+      }
+    }
+
+    &__list {
+      list-style-type: none;
+      display: inline-block;
+
+    }
+
+    &__heading {
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+
+    &__item {
+      display: block;
+      transition: all .2s;
+    }
+
+    &__link:link, &__link:active {
+      text-decoration: none;
+      text-transform: capitalize;
+      color: inherit;
+    }
+
+    &__item:hover {
+      transform: translateX(5px);
+      color: $color-darker-green;
+    }
+
+  }
+
+
+}
+
+.footer-bar {
+  background-color: $color-ice;
+  padding: 3.5rem 0 3.5rem 0 ;
+}

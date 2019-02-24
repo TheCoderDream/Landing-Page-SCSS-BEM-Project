@@ -1,0 +1,48 @@
+.letters {
+
+  display: flex;
+  flex-wrap: wrap;
+
+  &__box {
+    flex: 0 0 33.3%;
+    height: 12rem;
+    text-align: center;
+    position: relative;
+
+    border-right: 1px solid $color-light-grey;
+
+    &:nth-child(3n) {
+      border-right: none;
+    }
+
+    &:nth-child(-n+3) {
+      border-bottom: 1px solid $color-light-grey;
+    }
+  }
+
+
+  &__letter {
+    font-family: Arizonia, serif;
+    font-size: 12rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba($color-slate-grey, .2);
+    @include absCenter();
+
+  }
+
+  &__word {
+    font-family: Georgia,serif;
+    font-size: 4rem;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.15;
+    text-align: center;
+    color: $color-slate-grey;
+    @include absCenter();
+  }
+
+}

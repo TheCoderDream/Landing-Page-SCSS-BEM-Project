@@ -1,0 +1,35 @@
+.mx-auto{
+  max-width: 120rem;
+  // width: 120rem;
+  margin: 0 auto;
+}
+
+
+.features {
+  background-color: $color-ice;
+  text-align: center;
+  padding: 2.7rem 0 4.75rem 0;
+}
+
+.button-box {
+  margin-top: 4.3rem;
+  margin-bottom: 2rem;
+}
+
+.try {
+
+  &__heading {
+    font-family: TiemposHeadline, serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.58;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: $color-charcoal-grey;
+  }
+
+  &__text {
+    margin-top: 1.2rem;
+  }
+}
+

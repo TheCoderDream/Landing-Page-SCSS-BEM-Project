@@ -1,0 +1,81 @@
+.header {
+  height: 6.9rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid $color-light-grey;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
+.logo {
+  &__img {
+    height: 19px;
+    width: 19px;
+    margin-right: .4rem;
+  }
+
+  &__text{
+    font-size: 2.8rem;
+    font-weight: bold;
+    line-height: 1.14;
+    color: $charcoal-grey-two;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  &__list {
+    list-style-type: none;
+
+
+  }
+
+  &__item {
+    display: inline-block;
+    transition: all .2s;
+    &:not(:last-child) {
+      margin-right: 3.2rem;
+    }
+
+    &:last-child {
+      margin-right: 5.5rem;
+    }
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+  }
+
+  &__link:link, &__link:active {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: $color-battleship-grey;
+    line-height: 1.13;
+    font-family: Arial, serif;
+    transition: all .2s;
+
+  }
+
+  &__link:hover {
+    color: $color-dark-green;
+
+  }
+
+}
+
+.hero {
+  height: 75.2rem;
+  background-image: linear-gradient(to right, white , transparent), url("../img/bg.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding: 14.4rem;
+}

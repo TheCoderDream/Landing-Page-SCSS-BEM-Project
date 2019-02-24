@@ -1,0 +1,25 @@
+.heading {
+  font-family: Georgia, serif;
+  font-size: 7.7rem;
+  line-height: 1.04;
+  color: $color-charcoal-grey
+}
+
+.heading-main {
+  font-family: Georgia, serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  line-height: 1.19;
+  letter-spacing: 0.5px;
+  color: $color-charcoal-grey;
+  margin-bottom: 2.7rem;
+}
+
+.paragraph-main {
+  max-width: 59rem;
+  font-family: Arial, serif;
+  font-size: 1.6rem;
+  line-height: 1.56;
+  color: $color-charcoal-grey;
+  display: inline-block;
+}

@@ -1,0 +1,52 @@
+.btn {
+  border: none;
+  color: $color-battleship-grey;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 1.6rem;
+  font-family: Arial, serif;
+  line-height: 1.13;
+  border: 1px solid $color-battleship-grey;
+  padding: 1.1rem 4rem;
+  cursor: pointer;
+
+  &:hover {
+    color: $color-dark-green;
+  }
+
+
+  &--large {
+    padding: 1.9rem 4.5rem;
+    font-size: 1.4rem;
+    line-height: 1.29;
+  }
+
+  &--green {
+    background-color: $color-dark-green;
+    color: white;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+
+
+    &:hover {
+      background-color: $color-darker-green;
+      color: white;
+    }
+
+  }
+
+  &--outline-green {
+    background-color: white;
+    color: $color-dark-green;
+    border: 1px solid $color-dark-green;
+
+    &:hover {
+      color: $color-darker-green;
+      border: 1px solid $color-darker-green;
+    }
+  }
+
+}
